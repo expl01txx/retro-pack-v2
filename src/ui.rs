@@ -27,7 +27,7 @@ pub fn ui<B: Backend>(f: &mut Frame<B>, app: &App) {
     let (msg, style) = match app.input_mode {
         InputMode::Editing => (
             vec![
-                Span::raw("[ RetroPack v2] Press "),
+                Span::raw("[ RetroPack v2 ] Press "),
                 Span::styled("Esc to", Style::default().add_modifier(Modifier::BOLD)),
                 Span::raw(" Exit, "),
                 Span::styled("Enter", Style::default().add_modifier(Modifier::BOLD)),
