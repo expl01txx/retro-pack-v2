@@ -41,6 +41,11 @@ pub fn run_app<B: Backend>(terminal: &mut Terminal<B>, mut app: App) -> io::Resu
                             app.password.pop();
                         }
                     }
+                    KeyCode::Tab => {
+                        app.filename = "".to_string();
+                        app.password = "".to_string();
+                        app.row = 0;
+                    }
                     KeyCode::Up => {
                         if app.row != 0 {
                             app.row -= 1;
