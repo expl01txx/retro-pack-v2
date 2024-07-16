@@ -1,0 +1,12 @@
+[package]
+name = "retro-pack-v2"
+version = "2.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tui = "0.19.0"
+unicode-width = "0.1"
+crossterm = "0.25"
+librp2 = {"path" = "C:\\Users\\sdd\\Documents\\GitHub\\librp2"}
