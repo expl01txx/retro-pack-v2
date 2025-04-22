@@ -9,4 +9,4 @@ edition = "2021"
 tui = "0.19.0"
 unicode-width = "0.1"
 crossterm = "0.25"
-librp2 = {"path" = "C:\\Users\\sdd\\Documents\\GitHub\\librp2"}
+librp2 = {"path" = "../librp2"}
